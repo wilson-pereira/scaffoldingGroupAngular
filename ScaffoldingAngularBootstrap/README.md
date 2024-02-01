@@ -1,13 +1,28 @@
-# scaffoldingGroupAngular
-Scaffolding group about angular
+# Scaffolding Angular Bootstrap
 
-## ToDo
-- Criar uma pasta para uma aplicação em angular com bootstrap totalmente logada (semelhante a um sistema)
-- Criar uma pasta para uma aplicação em angular com bootstrap com área pública e outra logada (semelhante a um CMS)
+## Objetivo
+A finalidade deste scaffolding é ter um começo para projetos que necessite de um sistema totalmente logado.
+
+## O que possui?
+  - Tela de login
+  - Services para consumir um backend
+    - Referente user e services para users
+  - Dashboard
+  - Exemplo de armazenamento do token
+  - Menu lateral (sidebar)
+    - Exemplo de menu
+  - guards  
+
+
+## O que é utilizado é versões
+- nvm
+- node 18.19.0
+- npm 10.4.0
+- Angular 15.0.1
+- Bootstrap - Admin LTE 3.2.0
 
 
 
-# OUTROS PARA CONFIGURAR
 
 
 <p align="center" style="margin-bottom: 32px">
@@ -85,3 +100,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Icons Reference
 - https://www.w3schools.com/icons/icons_reference.asp
+

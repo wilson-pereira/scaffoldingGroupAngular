@@ -1,0 +1,115 @@
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0 text-info">Dashboard</h1>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+
+      <div class="card card-info">
+        <div class="card-header">Expenses And Receipts</div>
+        <div class="card-body">
+
+          <a class="btn btn-app" [routerLink]="['/expenses']">
+            <i class="fas fa-money-bill text-warning"></i>
+            Expenses
+          </a>
+
+          <a class="btn btn-app" [routerLink]="['/receipts']">
+            <i class="fas fa-receipt text-success"></i>
+            Receipts
+          </a>
+
+          <a class="btn btn-app" [routerLink]="['/categories']">
+            <i class="fas fa-ellipsis-h text-info"></i>
+            Categories
+          </a>
+
+          <a class="btn btn-app" [routerLink]="['/importofexpenses']">
+            <i class="fas fa-copy text-info"></i>
+            Import of Expenses
+          </a>
+
+          <a class="btn btn-app" [routerLink]="['/importofreceipts']">
+            <i class="fas fa-file text-info"></i>
+            Import of Receipts
+          </a>
+
+        </div>
+      </div>
+
+
+      <div class="card card-info">
+        <div class="card-header">Investiments</div>
+        <div class="card-body">
+
+          <a class="btn btn-app" [routerLink]="['/swingtrade']">
+            <i class="fas fa-circle text-warning"></i>
+            Swing Trade
+          </a>
+
+          <a class="btn btn-app" [routerLink]="['/dividend']">
+            <i class="fas fa-circle text-warning"></i>
+            Dividend
+          </a>
+
+          <a class="btn btn-app" [routerLink]="['/cdb']">
+            <i class="far fa-circle text-success"></i>
+            CDB
+          </a>
+
+          <a class="btn btn-app" [routerLink]="['/registration']">
+            <i class="far fa-circle text-success"></i>
+            JCP/DIV Registration
+          </a>
+
+          <a class="btn btn-app" [routerLink]="['/stockhistory']">
+            <i class="far fa-circle text-info"></i>
+            Stock History
+          </a>
+
+          <a class="btn btn-app" [routerLink]="['/globalstocktarget']">
+            <i class="far fa-circle text-info"></i>
+            Global Stock Target
+          </a>
+
+          <a class="btn btn-app" [routerLink]="['/ststocktarget']">
+            <i class="far fa-circle text-info"></i>
+            ST Stock Target
+          </a>
+
+        </div>
+      </div>
+
+
+      <div class="card card-info">
+        <div class="card-header">Utilities</div>
+        <div class="card-body">
+
+          <a class="btn btn-app" [routerLink]="['/backup']">
+            <i class="fas fa-circle text-danger"></i>
+            Backup File
+          </a>
+
+          <a class="btn btn-app" [routerLink]="['/notes']">
+            <i class="fas fa-bell text-info"></i>
+            Notes
+          </a>
+
+        </div>
+      </div>
+
+
+    </div>
+    <!-- Main row -->
+</section>
+<!-- /.content -->

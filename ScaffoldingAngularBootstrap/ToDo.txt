@@ -1,0 +1,4 @@
+A aplicação front-end está preparada para
+- Quando não estiver autenticador, retornar 401
+- Quando algum parâmetro não estiver de acordo retornar 400, com mensagem.
+-
